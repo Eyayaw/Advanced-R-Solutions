@@ -39,7 +39,7 @@ source("common.R")
 
 3. __<span style="color:red">Q</span>__: A good rule of thumb is that an anonymous function should fit on one line and shouldn't need to use `{}`. Review your code. Where could you have used an anonymous function instead of a named function? Where should you have used a named function instead of an anonymous function?  
     
-   __<span style="color:green">A</span>__: The use of anonymous functions allows concise and elegant code in certain situations. However, they miss a descriptive name and when re-reading the code it can take a while to figure out what they do (even it it's future you reading). That's why it's helpful to give long and complex functions a descriptive name. It may be worthwhile to take a look at your own projects or other peoples code to reflect on this part of your coding style.
+   __<span style="color:green">A</span>__: The use of anonymous functions allows concise and elegant code in certain situations. However, they miss a descriptive name and when re-reading the code it can take a while to figure out what they do (even if it's future you reading). That's why it's helpful to give long and complex functions a descriptive name. It may be worthwhile to take a look at your own projects or other peoples code to reflect on this part of your coding style.
 
 <!-- @hb: maybe describe advantages of anonymous functions more clearly. -->
 <!-- comment: maybe write about use of anonymous functions
